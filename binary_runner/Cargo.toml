@@ -1,0 +1,13 @@
+[package]
+name = "binary_runner"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "binary_runner"
+path = "src/main.rs"
+
+[dependencies]
+walletconnect-client = "0.1.0"
+tokio = "1.12.0"
+solana_caller = {path = "../solana_caller"}

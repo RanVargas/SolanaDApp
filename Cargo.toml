@@ -1,0 +1,8 @@
+
+[workspace]
+members = [
+    "binary_runner",
+    "solana_caller"
+]
+
+resolver = "2"
